@@ -3,10 +3,10 @@ var http = require('http');
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "",
-  user: "",
+  host: "localhost",
+  user: "root",
   password: "",
-  database: ""
+  database: "spoon"
 });
 
 con.connect(function(err) {
